@@ -1,0 +1,23 @@
+<mvc:View controllerName="zhr_br_time_freq.RELA.Relatorios" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:table="sap.ui.table" xmlns:l="sap.ui.layout" displayBlock="true" xmlns="sap.m">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="Saldo de Horas">
+					<HeaderContainer>
+						<content>
+							<Label text="Variante:" labelFor="idVariante"/>
+							<ComboBox id="idVariante" items="{ path: 'variant>/VarianteSaldoHorasSet', sorter: { path: 'Variant' } }" selectionChange=".onVariantChange">
+								<core:Item key="{variant>Variant}" text="{variant>Descricao}"/>
+							</ComboBox>
+						</content>
+						<!-- sap.ui.core.Control -->
+					</HeaderContainer>
+					<content>
+						<table:Table id="idSaldoHoras" alternateRowColors="true"></table:Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

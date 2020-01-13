@@ -1,0 +1,58 @@
+.sapUiHLayoutChildWrapper {
+    white-space: normal;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.sapUxAPObjectPageHeaderContent .sapUxAPObjectPageHeaderPlaceholder {
+    width: 8rem;
+    height: 8rem;
+    box-sizing: border-box;
+    margin: 0 1rem 0.5rem 0;
+}
+/* .sapMITBScrollContainer { */
+/*     padding: 1px 1px 0 1px; */
+/*     height: 95px; */
+/* } */
+.sapUxAPObjectPageLayout {
+    background: #fafafa;
+    height: 160px !important;
+}
+.sapUxAPObjectPageHeaderObjectImage {
+    margin-top: -25px !important;
+ 
+}
+.sapUxAPObjectPageHeaderContentImageContainer>img {
+    object-fit: cover !important;
+    height: 120px !important;
+    width: 120px !important;
+
+}
+
+/*span.sapMBtnInner.sapMBtnAccept {
+    background-image: none;
+    background-color: #008000;
+    border-color: #fafafa;
+    color: #fafafa;
+}
+
+:not(.sapMBtnDisabled)>span.sapMBtnInner.sapMBtnAccept>.sapMBtnIcon {
+    color: #fafafa;
+}
+
+/*
+span.sapMBtnInner.sapMBtnReject {
+    background-image: none;
+    background-color: red;
+    border-color: red;
+    color: white;
+	outline: medium none !important;
+}
+*/
+/*
+.sapMBtnContent .sapMBtnInner { 
+	color: #ff0000;
+    text-shadow: none;
+    background-color: #ff0000;
+    background-image: none;
+    outline: medium none !important;
+} */
