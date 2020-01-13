@@ -4,6 +4,7 @@ sap.ui.jsview("zhr_br_time_freq.main", {
    * Specifies the Controller belonging to this View. In the case that it is not implemented, or
    * that "null" is returned, this View does not have a Controller.
    * 
+   * * xisto aqui fazendo merda
    * @memberOf zhr_br_time_freq.main
    */
   getControllerName: function() {
