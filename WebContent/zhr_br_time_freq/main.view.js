@@ -7,6 +7,7 @@ sap.ui.jsview("zhr_br_time_freq.main", {
    * 
    * * xisto aqui fazendo merda
    *  teste 2
+   * adicionar essa linha apenas
    * @memberOf zhr_br_time_freq.main
    */
   getControllerName: function() {
